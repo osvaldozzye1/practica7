@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+.areaPricipal{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#encabezado{
+    background: #d0e6f8;
+    width: 100%;
+    height: vh;
+    text-align: center;
+    background-image: url(../img/areaprincipal.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;position: relative;
+    padding: 5% 10%;
+}
+#encabezado h1{
+    font-family: 'Pacifico', cursive; 
+    font-size: 6em;
+    text-align: center;
+    color: #d2cbca; 
+    margin-top: 50px;
+    text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); 
+}
+.piePagina{
+    width: 100%;
+    height: 50px;
+    background-color: #15101b;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+.piePagina p{
+    font-family: 'Pacifico', cursive; 
+    font-size: 14px;
+    margin: 0;
+
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    
+    margin-top: 250px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #761e1e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+li{
+    margin:15px;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+li a:hover{
+    background-color: #271d1d;
+
+}
+#datos{
+    background-image: url(../img/cafe.jpg);
+    display: flex;
+    color: #999999;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid #999999;
+    background-color: #B1C29E;
+    border-radius: 15px;
+    border: solid 2px #999999;
+    box-shadow: 2px 2px 5px #c0c2c3;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#datos p {
+    font-size: 1.4em;  
+    color: rgba(255, 244, 244, 0.9); 
+    line-height: 2.5;  
+    letter-spacing: 1px;  
+    margin: 40px 20px;  
+    text-align: center;
+    font-family: 'Pacifico', cursive; 
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+    background-color: rgba(0, 0, 0, 0.4);  
+    padding: 15px;  
+    border-radius: 10px; 
+}
+.nosotros{
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid #999999;
+    background-color: #B1C29E;
+    border-radius: 15px;
+    border: solid 2px #999999;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #c0c2c3;
+}
+.nosotros img{
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.nosotros p{
+    font-size: 1em;
+    color: rgb(255, 244, 244);
+    line-height: 1.;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.catalogo{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    gap: 20px;
+    align-items: center;
+    margin: 40px; 
+    flex-direction: column;
+    align-items: center;
+}
+.catalogo img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+.catalogo li{
+    margin-bottom: 10px;
+    color: #e6dcdc;
+    font-family: 'Pacifico', cursive;
+}
+.catalogo ul{
+    list-style-type: none;
+    font-size: 15px;
+    background-color: #4e6d2a;
+}
+.nosotros{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    height: 100;
+    gap: 30px;
+    align-items: center;
+    margin: 40px; 
+    flex-direction: column;
+    align-items: center;
+}
+.contacto{
+    display: grid; 
+    grid-template-columns: repeat(1,1fr); 
+    gap: 30px;
+    align-items: start;
+    margin: 40px; 
+    align-items: center;
+}
+.contacto p{
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+}
+.contacto img{
+    height: 50vh;
+}
+.contacto2 p{
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+}
